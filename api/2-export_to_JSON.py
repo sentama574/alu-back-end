@@ -1,5 +1,6 @@
-
-n script that exports data in the JSON format
+#!/usr/bin/python3
+"""
+    python script that exports data in the JSON format
 """
 import json
 import requests
@@ -53,4 +54,5 @@ if __name__ == "__main__":
     """
     with open('{}.json'.format(argv[1]), mode='w') as file:
         json.dump(json_to_dump, file)
+
 
